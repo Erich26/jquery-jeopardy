@@ -1,9 +1,6 @@
 body{
     text-align: center;
 }
-html { 
-    background: url(https://ntvb.tmsimg.com/assets/p18664119_b_h8_ab.jpg?w=960&h=540) no-repeat center center fixed; 
-  }
 .board {
     display: grid;
     margin: 0 auto;
@@ -22,7 +19,7 @@ html {
     font-weight: bold;
 }
 .question-slot{
-    background-color: rgba(51, 108, 161, 0.801);
+    background-color: rgba(104, 135, 240, 0.801);
     margin: 5px;
     color: gold;
     font-size: 40px;
@@ -47,11 +44,11 @@ html {
     margin-top: 20px;
 }
 .btn{
-    background-color: teal;
+    background-color: rgb(0, 255, 213);
 }
 
 .active{
-    background-color: gray;   
+    background-color: rgb(194, 243, 227);   
 }
 
 .complete{
