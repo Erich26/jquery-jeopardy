@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+html { 
+    background: url(https://ntvb.tmsimg.com/assets/p18664119_b_h8_ab.jpg?w=960&h=540) no-repeat center center fixed; 
+  }
+.board {
+    display: grid;
+    margin: 0 auto;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    height: 500px;
+    width: 800px;
+}
+.table{
+    width: 800px;
+    margin: 0 auto;
+}
+.table td{
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.question-slot{
+    background-color: rgba(51, 108, 161, 0.801);
+    margin: 5px;
+    color: gold;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.question-slot:hover{
+    background-color: rgb(30, 61, 126);
+    cursor: pointer;
+    color: gold;
+    transition: 0.3s;
+    transform: scale(1.2)
+}
+.form-box{
+    margin: 20px;
+}
+.question-box{
+    height: 50px;
+}
+.question-box h4{
+    margin-top: 20px;
+}
+.btn{
+    background-color: teal;
+}
+
+.active{
+    background-color: gray;   
+}
+
+.complete{
+
+    background-color: green;
+}
+.fail{
+
+    background-color: red;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
